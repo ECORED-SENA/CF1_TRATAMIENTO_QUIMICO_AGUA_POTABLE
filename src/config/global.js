@@ -1,17 +1,18 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Aspectos técnicos de insumos químicos en potabilización de agua',
+    Description:
+      'Este componente aborda la ejecución de pruebas de tratabilidad en agua cruda, con el fin de determinar la dosis óptima de insumos químicos y evaluar la eficiencia de los procesos unitarios de potabilización. Las temáticas descritas le permiten aplicar procedimientos técnicos y normativos para realizar ensayos como la prueba de jarras para determinar las dosis de coagulantes, interpretar resultados y proponer ajustes en los procesos de tratamiento de agua potable.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
