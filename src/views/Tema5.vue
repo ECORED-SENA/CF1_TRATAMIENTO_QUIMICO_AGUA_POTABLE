@@ -337,14 +337,14 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Curva de cloro
 
-        p Cuando se aplica cloro al agua que contiene agentes reductores como amoníaco y aminas orgánicas, es posible graficar el comportamiento de su concentración mediante una curva conocida como <d>curva de demanda de cloro</d>. Esta representación permite identificar cómo varía la concentración de cloro residual a medida que se incrementa la dosis de cloro aplicada.
+        p.mb-5 Cuando se aplica cloro al agua que contiene agentes reductores como amoníaco y aminas orgánicas, es posible graficar el comportamiento de su concentración mediante una curva conocida como <b>curva de demanda de cloro </b>. Esta representación permite identificar cómo varía la concentración de cloro residual a medida que se incrementa la dosis de cloro aplicada.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/22.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Inicialmente, se observa un aumento progresivo en la demanda de cloro, seguido por una caída en la concentración de cloro residual. Posteriormente, se presenta un nuevo aumento, conocido como <d>punto de quiebre</d> o <d>punto de ruptura</d>, el cual indica que se ha satisfecho la demanda de cloro y comienza a acumularse cloro libre en el agua.
+       p.mb-5 Inicialmente, se observa un aumento progresivo en la demanda de cloro, seguido por una caída en la concentración de cloro residual. Posteriormente, se presenta un nuevo aumento, conocido como <b> punto de quiebre </b> o <b>punto de ruptura</b>, el cual indica que se ha satisfecho la demanda de cloro y comienza a acumularse cloro libre en el agua.
     
     p.mb-5 Estos cambios se deben a que, en una primera fase, el cloro reacciona con compuestos como el amoníaco, formando monocloraminas y dicloraminas. Aunque estas concentraciones pueden disminuir temporalmente, el segundo incremento en la curva se debe a la presencia de cloro libre, que actúa como desinfectante residual.
 
