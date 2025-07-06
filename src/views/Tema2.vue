@@ -82,7 +82,7 @@
               span Diagrama de flujo planta de ablandamiento con una unidad de mezcla rápida
             
             figure.mb-5
-              img(src="@/assets/curso/temas/tema2/6.svg", data-aos="zoom-in", alt="EL diagrama representa los proceso de una de ablandamiento, donde se requiere adición de productos como la cal, que además contribuye a estabilizar el pH del agua.").mb-4.mb-lg-0
+              img(src="@/assets/curso/temas/tema2/6.svg", data-aos="zoom-in", alt="El diagrama representa los proceso de una de ablandamiento, donde se requiere adición de productos como la cal, que además contribuye a estabilizar el pH del agua.").mb-4.mb-lg-0
               figcaption Nota.  Romero (1999).
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")

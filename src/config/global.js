@@ -42,7 +42,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Normatividad calidad de agua',
+            titulo: 'Normatividad de calidad de agua',
             hash: 't_1_2',
           },
           {

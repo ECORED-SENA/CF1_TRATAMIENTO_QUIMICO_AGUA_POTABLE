@@ -12,12 +12,12 @@
         .row.mb-4.align-items-center
           .col-lg-9.mb-3.mb-lg-0
             .bg-color-1.p-4(data-aos="fade-left").mb-4
-              p.mb-0 En Colombia, la regulación del sector de potabilización del agua y saneamiento básico se rige por el Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico (RAS). Este instrumento, elaborado por el Ministerio de Vivienda, tiene como objetivo mejorar la calidad en la prestación de estos servicios esenciales, proporcionando criterios técnicos para el diseño, construcción, operación y mantenimiento de los sistemas involucrados.
+              p.mb-0 En Colombia, la regulación del sector de potabilización del agua y saneamiento básico se rige por el <b>Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico (RAS)</b>. Este instrumento, elaborado por el <b>Ministerio de Vivienda, Ciudad y Territorio</b>, es un documento que establece los parámetros y características que debe cumplir para ser apta para el consumo humano y animal. El Ministerio de Vivienda, tiene como objetivo mejorar la calidad en la prestación de estos servicios esenciales, proporcionando criterios técnicos para el diseño, construcción, operación y mantenimiento de los sistemas involucrados.
           .col-lg-3
             figure
               img(src="@/assets/curso/temas/tema1/1.png", data-aos="zoom-in").mb-4.mb-lg-0
         
-        p.mb-5 El uso de las guías y manuales del RAS es de carácter obligatorio, conforme a lo establecido en la Resolución 0330 de 2017. Esta normativa aplica para los sistemas de captación, conducción, almacenamiento y tratamiento tanto de agua potable como residual.
+        p.mb-5 El uso de las guías y manuales del RAS es de <b>carácter obligatorio</b>, conforme a lo establecido en la Resolución 0330 de 2017. Esta normativa aplica para los sistemas de <b>agua potable y saneamiento básico, incluyendo captación, conducción, almacenamiento y tratamiento</b>, tanto de agua potable como residual.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -47,7 +47,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 #[span 1.1] Resolución 0330 de 2017: Contenido y alcance
     
-    p.mb-5 Esta resolución reglamenta los requisitos técnicos obligatorios para todas las etapas de los proyectos de infraestructura en acueducto, alcantarillado y aseo, incluyendo:
+    p.mb-5 Esta resolución reglamenta los <b>requisitos técnicos</b> obligatorios para todas las etapas de los proyectos de infraestructura en acueducto, alcantarillado y aseo, incluyendo:
 
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
@@ -222,9 +222,9 @@
         separador
 
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 #[span 1.3] Normatividad calidad de agua
+          h2 #[span 1.3] Sistemas de potabilización
         
-        p.mb-5 Según lo establecido en la Resolución 0330 de 2017, la selección de tecnologías y procesos unitarios de tratamiento en los sistemas de potabilización debe basarse en estudios técnicos integrales que consideren los siguientes aspectos fundamentales:
+        p.mb-5 Según lo establecido en la <b>Resolución 0330 de 2017</b>, la selección de tecnologías y procesos unitarios de tratamiento en los sistemas de potabilización debe basarse en <b>estudios tecnológicos integrales</b>, que permitan determinar la eficacia de los tratamientos. En el proceso de potabilización, la selección de tecnologías y procesos unitarios debe basarse en estudios técnicos integrales que consideren los siguientes aspectos fundamentales:
 
         .row.mb-5.align-items-center
           .col-lg-4.mb-3.mb-lg-0
@@ -242,9 +242,9 @@
                 p La selección de tecnologías debe considerar la capacidad técnica y administrativa de la empresa de servicios públicos o la junta administradora del sistema.
                 
               div(titulo="Parámetros de diseño sostenibles").justify-content-center
-                p Los diseños deben incluir alternativas viables de tratamiento, garantizando eficiencia operativa y sostenibilidad económica.
+                p Los diseños deben incluir <b>alternativas viables de tratamiento</b>, garantizando eficiencia operativa y sostenibilidad económica.
               div(titulo="Análisis de vulnerabilidad del sistema").justify-content-center
-                p Evaluación del comportamiento de la Planta de Tratamiento de Agua Potable (PTAP) ante variaciones extremas en la calidad del agua cruda, como episodios de alta turbiedad por fenómenos climáticos.
+                p Evaluación del comportamiento de la <b>Planta de Tratamiento de Agua Potable (PTAP)</b> ante variaciones extremas en la calidad del agua cruda, como episodios de alta turbiedad por fenómenos climáticos.
                 
 
 

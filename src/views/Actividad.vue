@@ -20,10 +20,10 @@ export default {
       tema: 'Aspectos técnicos de insumos químicos en potabilización de agua',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Comprender los fundamentos prácticos y normativos necesarios para la selección de insumos químicos requeridos en procesos de potabilización de agua.',
+        '<b> Objetivo:</b> comprender los fundamentos prácticos y normativos necesarios para la selección de insumos químicos requeridos en procesos de potabilización de agua.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,

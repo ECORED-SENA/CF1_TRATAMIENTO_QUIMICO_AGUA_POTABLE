@@ -103,7 +103,7 @@
     
     .row.mb-4.align-items-center
       .col-lg-9.mb-3.mb-lg-0
-        p.mb-0 Unidad de tratamiento en la que se inicia el contacto del coagulante con el agua cruda (proceso de coagulación). Su función principal es permitir la dispersión rápida y uniforme del coagulante en el flujo de agua. La mezcla puede generarse mediante turbulencia, utilizando mecanismos hidráulicos o mecánicos. Entre los mezcladores hidráulicos más comunes se encuentran: mezcladores con pantalla, de aquietamiento, de resalto y estáticos. Este tipo de sistemas son ampliamente utilizados en plantas municipales, ya que su operación es menos exigente en comparación con los mezcladores mecánicos.
+        p.mb-0 Unidad de tratamiento en la que se inicia el contacto del coagulante con el agua cruda (proceso de coagulación). Su función principal es permitir la dispersión rápida y uniforme del coagulante en el flujo de agua. La mezcla puede generarse mediante turbulencia, utilizando mecanismos hidráulicos o mecánicos. Entre los mezcladores hidráulicos más comunes se encuentran: mezcladores con pantalla, de aquietamiento, de resalto y estáticos. Este tipo de sistemas es ampliamente utilizado en plantas municipales, ya que su operación es menos exigente en comparación con los mezcladores mecánicos.
       .col-lg-3
         figure
           img(src="@/assets/curso/temas/tema5/8.png", data-aos="zoom-in").mb-4.mb-lg-0
@@ -263,17 +263,17 @@
               figure.mb-5
                 img(src="@/assets/curso/temas/tema5/17.png", data-aos="zoom-in", alt="Imagen aérea de unidades de filtración y sedimentación en una planta de tratamiento de agua potable, con tres estructuras rectangulares que contienen compartimientos y canales internos para el proceso de purificación. ").mb-4.mb-lg-0
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Unidades de filtración y sedimentación planta de tratamiento de agua potable 
+              h5 Unidades de filtración y sedimentación de planta de tratamiento de agua potable 
               p Conjunto de estructuras que permiten separar sólidos mediante sedimentación por gravedad y eliminar partículas finas a través de filtración, asegurando un tratamiento completo del agua.
     
-    p.mb-5 Como medida de operación para las unidades de filtración, se debe realizar retro lavados de manera diaria o semanal, dependiendo del tipo de agua a tratar, esto garantiza el adecuado funcionamiento de los filtros y evita que el lecho filtrante se sature por acumulación de partículas.
+    p.mb-5 Como medida de operación para las unidades de filtración, se deben realizar retrolavados de manera diaria o semanal, dependiendo del tipo de agua a tratar, esto garantiza el adecuado funcionamiento de los filtros y evita que el lecho filtrante se sature por acumulación de partículas.
 
     separador
 
     #t_5_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 #[span 5.6] Desinfección
     
-    p.mb-5 La función principal de la desinfección es la eliminación de microorganismos patógenos como los coliformes totales, E. Colli, mesófilos, entro otros que pueden ocasionar enfermedades, el proceso de desinfección se encuentra como etapa final de la potabilización, dicho proceso puede realizarse mediante cloración o con otro tipo de desinfectante, sin embargo, el mas usado es la cloración, por lo cual en el presente curso se describen las características principales con la aplicación de cloro.
+    p.mb-5 La función principal de la desinfección es la eliminación de microorganismos patógenos como los coliformes totales, E. Colli, mesófilos, entre otros, que pueden ocasionar enfermedades. El proceso de desinfección se encuentra como etapa final de la potabilización, dicho proceso puede realizarse mediante cloración o con otro tipo de desinfectante; sin embargo, el más usado es la cloración, por lo cual en el presente curso se describen las características principales con la aplicación de cloro.
 
     .row.mb-5.justify-content-center
       .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
@@ -295,7 +295,7 @@
             img(src='@/assets/curso/temas/tema5/19.png', alt='Texto que describa la imagen')
 
           h3.text-center Tiempo del proceso
-          p.text-small Usualmente el proceso tarda alrededor de unos 20 a 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días.
+          p.text-small Usualmente el proceso tarda alrededor de unos 20 a 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continúa durante horas o incluso días.
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -306,7 +306,7 @@
             img(src='@/assets/curso/temas/tema5/20.png', alt='Texto que describa la imagen')
 
           h3.text-center Aplicación
-          p.text-small Este procedimiento se utiliza en las grandes redes de distribución de agua potable desde hace ya varias décadas añadiendo cloro al agua para que durante su distribución y consumo no se contamine por microorganismos patógenos.
+          p.text-small Este procedimiento se utiliza en las grandes redes de distribución de agua potable desde hace ya varias décadas, añadiendo cloro al agua para que, durante su distribución y consumo, no se contamine por microorganismos patógenos.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -337,14 +337,14 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Curva de cloro
 
-        p Cuando se aplica cloro al agua que contiene agentes reductores como amoníaco y aminas orgánicas, es posible graficar el comportamiento de su concentración mediante una curva conocida como curva de demanda de cloro. Esta representación permite identificar cómo varía la concentración de cloro residual a medida que se incrementa la dosis de cloro aplicada.
+        p Cuando se aplica cloro al agua que contiene agentes reductores como amoníaco y aminas orgánicas, es posible graficar el comportamiento de su concentración mediante una curva conocida como <d>curva de demanda de cloro</d>. Esta representación permite identificar cómo varía la concentración de cloro residual a medida que se incrementa la dosis de cloro aplicada.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/22.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Inicialmente, se observa un aumento progresivo en la demanda de cloro, seguido por una caída en la concentración de cloro residual. Posteriormente, se presenta un nuevo aumento, conocido como punto de quiebre o punto de ruptura, el cual indica que se ha satisfecho la demanda de cloro y comienza a acumularse cloro libre en el agua.
+        p.mb-0 Inicialmente, se observa un aumento progresivo en la demanda de cloro, seguido por una caída en la concentración de cloro residual. Posteriormente, se presenta un nuevo aumento, conocido como <d>punto de quiebre</d> o <d>punto de ruptura</d>, el cual indica que se ha satisfecho la demanda de cloro y comienza a acumularse cloro libre en el agua.
     
     p.mb-5 Estos cambios se deben a que, en una primera fase, el cloro reacciona con compuestos como el amoníaco, formando monocloraminas y dicloraminas. Aunque estas concentraciones pueden disminuir temporalmente, el segundo incremento en la curva se debe a la presencia de cloro libre, que actúa como desinfectante residual.
 

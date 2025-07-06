@@ -72,7 +72,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Medición de pH
     
-    p.mb-5 El pH es una característica fisicoquímica clave, ya que influye directamente en la acción del coagulante. Cuando se trata agua con pH bajo (menor a 7), el proceso de floculación puede verse afectado, por lo que es necesario estabilizar el pH mediante la adición de insumos como la cal. Esto permite favorecer el aglutinamiento de partículas y avanzar en el proceso de potabilización.
+    p.mb-5 El pH es una característica fisicoquímica clave, ya que influye directamente en la acción del coagulante. Cuando se trata de agua con pH bajo (menor a 7), el proceso de floculación puede verse afectado, por lo que es necesario estabilizar el pH mediante la adición de insumos como la cal. Esto permite favorecer el aglutinamiento de partículas y avanzar en el proceso de potabilización.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -116,7 +116,7 @@
         h2 Calcio y magnesio
         p Altos niveles de calcio y magnesio indican la presencia de agua dura, la cual puede generar incrustaciones en las redes de conducción y afectar el rendimiento de las unidades de tratamiento. En estos casos, es necesario implementar medidas que permitan reducir la dureza del agua para proteger la infraestructura del sistema.
     
-    p Una vez potabilizada el agua se deben cumplir con los valores máximos permisibles establecidos en la tabla 1, garantizando que el agua es apta para consumo humano.
+    p Una vez potabilizada el agua debe cumplir con los valores máximos permisibles establecidos en la tabla 1, garantizando que el agua es apta para consumo humano.
 
 
 

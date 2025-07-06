@@ -73,7 +73,7 @@
           .col-lg-10
             .bg-full-width.bg-color-7.mb-5
               .px-4.px-md-5.py-4
-                p.mb-0 Es importante tener en cuenta que en aguas con alta turbiedad pueden requerir coagulantes más potentes.
+                p.mb-0 Es importante tener en cuenta que en aguas con alta turbiedad pueden requerir <b> coagulantes más potentes</b>.
     
     div.p-3.bg-color-8.tarjeta.mb-5
       h3.mb-0 Riesgos asociados al uso de insumos químicos
@@ -87,7 +87,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema9/11.png', alt='')
-            .col-lg.p-4.p-lg-0
+            .col-lg.p-4.p-lg-3
               ul.lista-ul--color
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-5
