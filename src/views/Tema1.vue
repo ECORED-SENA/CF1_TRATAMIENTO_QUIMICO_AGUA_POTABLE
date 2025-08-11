@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Lineamientos técnicos de agua potable y saneamiento
@@ -10,12 +10,12 @@
     .bg-full-width.bg-color-3
       .p-4.py-lg-0.px-4.px-md-5
         .row.mb-4.align-items-center
-          .col-lg-9.mb-3.mb-lg-0
-            .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .col-lg-9.mb-3.mb-lg-0(data-aos="fade-right")
+            .bg-color-1.p-4.mb-4
               p.mb-0 En Colombia, la regulación del sector de potabilización del agua y saneamiento básico se rige por el <b>Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico (RAS)</b>. Este instrumento, elaborado por el <b>Ministerio de Vivienda, Ciudad y Territorio</b>, es un documento que establece los parámetros y características que debe cumplir para ser apta para el consumo humano y animal. El Ministerio de Vivienda, tiene como objetivo mejorar la calidad en la prestación de estos servicios esenciales, proporcionando criterios técnicos para el diseño, construcción, operación y mantenimiento de los sistemas involucrados.
-          .col-lg-3
+          .col-lg-3(data-aos="fade-left")
             figure
-              img(src="@/assets/curso/temas/tema1/1.png", data-aos="zoom-in").mb-4.mb-lg-0
+              img(src="@/assets/curso/temas/tema1/1.png", style="width: 450px").m-auto
         
         p.mb-5 El uso de las guías y manuales del RAS es de <b>carácter obligatorio</b>, conforme a lo establecido en la Resolución 0330 de 2017. Esta normativa aplica para los sistemas de <b>agua potable y saneamiento básico, incluyendo captación, conducción, almacenamiento y tratamiento</b>, tanto de agua potable como residual.
 
@@ -24,7 +24,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Manuales y guías disponibles
         
-        p.mb-5 Hasta la fecha, el Gobierno colombiano ha desarrollado:
+        p.mb-5(data-aos="fade-left") Hasta la fecha, el Gobierno colombiano ha desarrollado:
 
         .row.justify-content-center
           .col-lg-10
@@ -46,11 +46,10 @@
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 #[span 1.1] Resolución 0330 de 2017: Contenido y alcance
-    
-    p.mb-5 Esta resolución reglamenta los <b>requisitos técnicos</b> obligatorios para todas las etapas de los proyectos de infraestructura en acueducto, alcantarillado y aseo, incluyendo:
 
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
+        p.mb-5(data-aos="fade-left") Esta resolución reglamenta los <b>requisitos técnicos</b> obligatorios para todas las etapas de los proyectos de infraestructura en acueducto, alcantarillado y aseo, incluyendo:
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-12 col-lg-6")
@@ -89,10 +88,10 @@
     
     .row.justify-content-center
       .col-lg-8
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 1.
           span Características físicas
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
           table
             thead
               tr
@@ -109,10 +108,10 @@
                 td NTU
                 td 2
         
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
           span Características químicas
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
           table
             thead
               tr
@@ -193,10 +192,10 @@
                 td mg/L
                 td 0,5
 
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 3.
           span Características microbiológicas
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
           table
             thead
               tr
@@ -224,14 +223,14 @@
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 #[span 1.3] Sistemas de potabilización
         
-        p.mb-5 Según lo establecido en la <b>Resolución 0330 de 2017</b>, la selección de tecnologías y procesos unitarios de tratamiento en los sistemas de potabilización debe basarse en <b>estudios tecnológicos integrales</b>, que permitan determinar la eficacia de los tratamientos. En el proceso de potabilización, la selección de tecnologías y procesos unitarios debe basarse en estudios técnicos integrales que consideren los siguientes aspectos fundamentales:
+        p.mb-5(data-aos="fade-right") Según lo establecido en la <b>Resolución 0330 de 2017</b>, la selección de tecnologías y procesos unitarios de tratamiento en los sistemas de potabilización debe basarse en <b>estudios tecnológicos integrales</b>, que permitan determinar la eficacia de los tratamientos. En el proceso de potabilización, la selección de tecnologías y procesos unitarios debe basarse en estudios técnicos integrales que consideren los siguientes aspectos fundamentales:
 
-        .row.mb-5.align-items-center
+        .row.align-items-center
           .col-lg-4.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema1/9.png", data-aos="zoom-in")
           .col-lg-8
-            AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-6")
+            AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-6")
               div(titulo="Caracterización del agua cruda").justify-content-center
                 p Evaluación físico-química y microbiológica del recurso hídrico en su estado natural, como insumo para determinar los tratamientos necesarios.
                 
@@ -245,10 +244,6 @@
                 p Los diseños deben incluir <b>alternativas viables de tratamiento</b>, garantizando eficiencia operativa y sostenibilidad económica.
               div(titulo="Análisis de vulnerabilidad del sistema").justify-content-center
                 p Evaluación del comportamiento de la <b>Planta de Tratamiento de Agua Potable (PTAP)</b> ante variaciones extremas en la calidad del agua cruda, como episodios de alta turbiedad por fenómenos climáticos.
-                
-
-
-      
  
 </template>
 

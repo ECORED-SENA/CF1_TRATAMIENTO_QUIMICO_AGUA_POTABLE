@@ -224,7 +224,7 @@ export default {
     {
       tema: 'Riesgos asociados al uso de insumos químicos',
       referencia:
-        'ARL Sura. (s.f..). Manejo seguro de hipoclorito de calcio [Ficha de datos de seguridad, PDF].',
+        'Merck Group. (s.f..). Manejo seguro de hipoclorito de calcio [Ficha de datos de seguridad, PDF].',
       tipo: 'Documento',
       descarga: '/downloads/hipoclorito_calcio.pdf',
     },
@@ -241,6 +241,41 @@ export default {
         'es aquella que cumple las características físicas, químicas y microbiológicas, en las condiciones señaladas en la Resolución 2115 de 2007.',
     },
     {
+      termino: 'Aireación',
+      significado:
+        'proceso que permite el contacto del agua con el aire para incrementar el oxígeno disuelto, reducir gases como dióxido de carbono y sulfuro de hidrógeno, y favorecer la oxidación de metales como hierro y manganeso.',
+    },
+    {
+      termino: 'Cal hidratada o apagada (Ca(OH)₂)',
+      significado:
+        'hidróxido de calcio empleado para estabilizar el pH y favorecer la coagulación y floculación.',
+    },
+    {
+      termino: 'Cal viva (CaO)',
+      significado:
+        'óxido de calcio utilizado para ajustar el pH del agua durante el tratamiento.',
+    },
+    {
+      termino: 'Cloración',
+      significado:
+        'proceso de desinfección que consiste en adicionar cloro al agua para eliminar microorganismos patógenos y mantener un efecto residual.',
+    },
+    {
+      termino: 'Cloro gaseoso (Cl₂)',
+      significado:
+        'desinfectante en estado gaseoso, de olor fuerte y color amarillo verdoso, usado comúnmente en plantas de tratamiento por su alta residualidad.',
+    },
+    {
+      termino: 'Cloro granulado (hipoclorito de calcio - Ca(ClO)₂)',
+      significado:
+        'desinfectante sólido en forma granular, con alto contenido de cloro activo, usado en sistemas pequeños y piscinas.',
+    },
+    {
+      termino: 'Cloro líquido (hipoclorito de sodio - NaClO)',
+      significado:
+        'desinfectante en solución líquida de color amarillento o verdoso, más seguro que el cloro gaseoso pero menos residual.',
+    },
+    {
       termino: 'Coagulante',
       significado:
         'sustancia química utilizada en el tratamiento del agua para desestabilizar las partículas coloidales (como arcilla, materia orgánica, microorganismos y otros sólidos suspendidos) que no se sedimentan fácilmente por sí solas.',
@@ -249,6 +284,31 @@ export default {
       termino: 'Desinfectante',
       significado:
         'producto químico usado para eliminar microorganismos patógenos en el agua para consumo humano.',
+    },
+    {
+      termino: 'Filtración',
+      significado:
+        'etapa en la que el agua pasa a través de lechos filtrantes para remover partículas finas y mejorar su claridad.',
+    },
+    {
+      termino: 'Floculación',
+      significado:
+        'proceso de agitación lenta que permite la formación de flóculos a partir de partículas finas para facilitar su separación del agua.',
+    },
+    {
+      termino: 'Mezcla rápida',
+      significado:
+        'etapa inicial del proceso de coagulación en la que el coagulante se dispersa rápidamente en el agua para lograr una distribución uniforme.',
+    },
+    {
+      termino: 'pH',
+      significado:
+        'medida que indica la acidez o alcalinidad del agua, influyendo en la eficiencia de los procesos de coagulación y desinfección.',
+    },
+    {
+      termino: 'Sedimentación',
+      significado:
+        'proceso mediante el cual las partículas suspendidas más densas que el agua se depositan en el fondo por acción de la gravedad.',
     },
   ],
   referencias: [

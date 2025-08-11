@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Coagulantes
@@ -13,11 +13,11 @@
           p.mb-0 En Colombia, los procesos de potabilización del agua emplean principalmente coagulantes inorgánicos de origen metálico. Su función principal es aglutinar las partículas o sólidos suspendidos presentes en el agua, facilitando su precipitación o flotación, y contribuyendo así a la clarificación del agua. Entre los floculantes más utilizados en las plantas de tratamiento se encuentran los siguientes (Murillo et al., 2020): 
       .col-lg-3
         figure
-          img(src="@/assets/curso/temas/tema6/1.png", data-aos="zoom-in").mb-4.mb-lg-0
+          img(src="@/assets/curso/temas/tema6/1.png", data-aos="zoom-in", style="max-width: 450px").m-auto
     
-    .bg-full-width.bg-fondo-2.mb-5
+    .bg-full-width.bg-fondo-2
       .p-4.p-md-5
-        SlyderA(tipo="b").bg-white.tarjeta.p-4
+        SlyderA(tipo="b").bg-color-11.tarjeta.p-4
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
