@@ -28,7 +28,7 @@
           .col-12
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 1.
-              span Diagrama de flujo planta de tratamiento de agua potable de tipo convencional
+              span Diagrama planta de tratamiento de agua potable de tipo convencional
             
             figure.mb-5(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema2/2.svg", data-aos="zoom-in", alt="El esquema representa los procesos unitarios de una planta de tratamiento de agua potable de tipo convencional.").mb-4.mb-lg-0
@@ -45,7 +45,7 @@
           .col-12
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 2.
-              span Diagrama de flujo planta para suministro pequeño con agua cruda de buena calidad
+              span Diagrama planta para suministro pequeño con agua cruda de buena calidad
             
             figure.mb-5(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema2/3.svg", data-aos="zoom-in", alt="El esquema muestra las unidades que componen una planta para suministro pequeño con agua cruda de buena calidad, lo cual permite reducir algunos procesos como la floculación.").mb-4.mb-lg-0
@@ -69,7 +69,7 @@
       .p-4.py-lg-0.px-4.px-md-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 3.
-          span Diagrama de flujo planta de ablandamiento con doble mezcla rápida
+          span Diagrama planta de ablandamiento con doble mezcla rápida
         
         figure.mb-5(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema2/5.svg", data-aos="zoom-in", alt="El diagrama muestra los procesos unitarios de una planta que requiere proceso de ablandamiento o disminución de la dureza del agua, en este caso puede requerirse doble punto de mezcla rápida.").mb-4.mb-lg-0
@@ -79,7 +79,7 @@
           .col-12
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 4.
-              span Diagrama de flujo planta de ablandamiento con una unidad de mezcla rápida
+              span Diagrama planta de ablandamiento con una unidad de mezcla rápida
             
             figure.mb-5(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema2/6.svg", data-aos="zoom-in", alt="El diagrama representa los proceso de una de ablandamiento, donde se requiere adición de productos como la cal, que además contribuye a estabilizar el pH del agua.").mb-4.mb-lg-0
@@ -104,7 +104,7 @@
           .col-12
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 5.
-              span Diagrama de flujo planta de remoción de hierro y magnesio
+              span Diagrama planta de remoción de hierro y magnesio
             
             figure.mb-5(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema2/8.svg", data-aos="zoom-in", alt="El esquema muestra los procesos unitarios que puede tener una planta donde el agua druda presenta altos contenidos de hierro y magnesio, por lo cual se necesita ajuste de pH y adición de oxidante químico.").mb-4.mb-lg-0
@@ -114,7 +114,7 @@
           .col-12
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 6.
-              span Diagrama de flujo planta de remoción de hierro y magnesio con aireación
+              span Diagrama planta de remoción de hierro y magnesio con aireación
             
             figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/tema2/9.svg", data-aos="zoom-in", alt="El diagrama muestra una planta donde el agua a tratar contiene hierro y magnesio, en este caso se encuentran varios puntos de cloración.").mb-4.mb-lg-0

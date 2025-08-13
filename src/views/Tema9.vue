@@ -32,7 +32,7 @@
             .row.justify-content-center.mb-3
               .col-8.justify-content-center.d-flex
                 img(src='@/assets/curso/temas/tema9/4.svg', style="max-width: 110px" alt='AvatarTop')
-            p.text-center Compatibilidad con otros insumos químicos, de tal forma que no altere otrso procesos unitarios.
+            p.text-center Compatibilidad con otros insumos químicos, de tal forma que no altere otros procesos unitarios.
           .tarjeta.bg-color-white.p-4
             .row.justify-content-center.mb-3
               .col-8.justify-content-center.d-flex

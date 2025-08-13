@@ -10,7 +10,7 @@
     .row.align-items-center
       .col-lg-9.mb-3.mb-lg-0(data-aos="fade-right")
         .bg-color-1.p-4(data-aos="fade-left").mb-4
-          p.mb-0 Para conocer las propiedades del agua que se va a tratar, es fundamental realizar mediciones tanto in situ como en laboratorio. Estas evaluaciones permiten identificar parámetros clave que influyen directamente en el proceso de potabilización y en la selección de los insumos químicos necesarios.
+          p.mb-0 Para conocer las propiedades del agua que se va a tratar, es fundamental realizar mediciones tanto #[i in situ] como en laboratorio. Estas evaluaciones permiten identificar parámetros clave que influyen directamente en el proceso de potabilización y en la selección de los insumos químicos necesarios.
       .col-lg-3(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema4/1.png", data-aos="zoom-in", style="max-width: 450px").m-auto
